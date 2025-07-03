@@ -1,0 +1,49 @@
+.grid-container{
+    display:grid;
+    justify-items: start;
+    align-self: start;
+    grid-template-columns:repeat(3,2fr);/*2 คอลัมน์*/
+    gap:10px;
+}
+#a{
+
+    background-color: rgba(240, 120, 40, 0.397);
+    border: solid rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 10px;
+}
+#b{
+
+    background-color: rgba(40, 240, 83, 0.205);
+    border: solid rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 10px;
+}
+#c{
+
+    background-color: rgba(40, 147, 240, 0.473);
+    border: solid rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 10px;
+}
+#d{
+
+    background-color: rgba(240, 40, 133, 0.158);
+    border: solid rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 10px;
+}
+#e{
+
+    background-color: rgba(240, 40, 40, 0.534);
+    border: solid rgb(7, 5, 5);
+    font-size: 10px;
+    padding: 10px;
+}
+#f{
+
+    background-color: rgba(187, 240, 40, 0.288);
+    border: solid rgb(8, 6, 6);
+    font-size: 10px;
+    padding: 10px;
+}
